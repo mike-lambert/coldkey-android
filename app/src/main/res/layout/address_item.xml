@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/picture_currency"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_bitcoin"/>
+    <TextView
+        android:id="@+id/label_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_large"
+        android:fontFamily="monospace"
+        android:text="0.00"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/picture_currency"
+        android:layout_margin="@dimen/margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1jVhs6T0zz91qaF547kapqi26"
+        android:layout_toRightOf="@+id/picture_currency"
+        android:layout_below="@+id/label_balance"
+        android:layout_margin="@dimen/margin"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_medium"/>
+</RelativeLayout>
